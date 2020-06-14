@@ -1,0 +1,52 @@
+ body{
+    font-family: sans-serif; 
+    background-color: dodgerblue;
+    
+}
+header{
+    text-align: center;
+    background-color: honeydew;
+   
+}
+
+li{
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+
+
+nav li{
+    margin: 10px  ;
+    display: inline;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(20, 145, 40);
+    padding: 25px;
+}
+
+h3, .profile{
+    text-align: center;
+}
+
+.profile img{
+    width: 500px;
+    height: 350px;
+}
+
+h3{
+    font-size: 40px;
+    font-style: bold;
+}
+
+.info li{
+    font-size: 25px;
+}
+
+.about p{
+    font-style: italic;
+}
