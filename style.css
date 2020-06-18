@@ -1,3 +1,4 @@
+ /* body and header styling */
  body{
     font-family: sans-serif; 
     background-color: dodgerblue;
@@ -8,14 +9,14 @@ header{
     background-color: honeydew;
    
 }
-
+/* all lists styling */
 li{
     list-style: none;
     margin-bottom: 10px;
 
 }
 
-
+/* navigation styling */
 nav li{
     margin: 10px  ;
     display: inline;
@@ -23,12 +24,27 @@ nav li{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+a:link{
+    color: orange;
+}
+
+ a:visited{
+    color: maroon;
+} 
+a:hover{
+    color: lawngreen;
+}
+
+a:active{
+    color: mediumslateblue;
+}
+
 nav{
     text-align: center;
     background-color: rgb(20, 145, 40);
     padding: 25px;
 }
-
+/* about section and footer */
 h3, .profile{
     text-align: center;
 }
@@ -38,9 +54,10 @@ h3, .profile{
     height: 350px;
 }
 
-h3{
+h3, h1{
     font-size: 40px;
     font-style: bold;
+    color: ivory;
 }
 
 .info li{
